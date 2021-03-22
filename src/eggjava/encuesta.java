@@ -13,6 +13,7 @@ import java.util.Scanner;
  */
 public class encuesta {
     private String atrib1;
+    private String atrib2;
    public static void main(String[] args) {
     int opinion;
     
