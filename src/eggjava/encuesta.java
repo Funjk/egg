@@ -12,8 +12,10 @@ import java.util.Scanner;
  * @author Bargas
  */
 public class encuesta {
+    private String atrib1;
    public static void main(String[] args) {
     int opinion;
+    
     Scanner leer = new Scanner (System.in); 
     System.out.println("Clasifique de 1 a 5");
     opinion=leer.nextInt();
